@@ -6358,7 +6358,12 @@ body.demo-first {
   background-image: linear-gradient(60deg, rgba(255, 234, 0, 0.5) 5%, rgba(0, 200, 83, 0.35)), url("../img/bg.jpg"); }
 
 body.demo-two {
-  background-image: url(https://yuihirasawa520.pythonanywhere.com/static/pic/bgimage.jpg); }
+  background-image: url(img/bgimage.jpg); }
+
+@media screen and (max-width:600px){
+body.demo-two{
+  background-image: url(img/bgimage2.jpg); }
+}
 
 .brand-logo {
   width: 120px; }
